@@ -20,4 +20,17 @@ Mark est plus élevé que celui de John ? true").
 BONNE CHANCE 😀
 */
 
+const wMark = 78;
+const wJohn = 86;
+const hMark = 1.76;
+const hJohn = 1.85;
+
+const bmiMark = wMark/(hMark*hMark);
+const bmiJohn = wJohn/(hJohn*hJohn);
+const bmiComp = true;
+console.log(bmiMark);
+console.log(bmiJohn);
+console.log(`Est-ce que Mark a un BMI plus élevé que celui de John ${bmiComp}`);
+
+
 
