@@ -18,7 +18,7 @@ const a = 2;
 // 3, 1
 const b = 8;
 //10
-const c = (a+(b*b));
+const c = a+b*b;
 //66
 const d = a*b+b;
 //24
@@ -28,4 +28,4 @@ const f = a*b/a;
 //8
 const g = b/a*a;
 //8
-console.log(a+1, a-1, b+2, c, d, e, f, g);
+console.log(a, a-1, a+1, b, b+2, c, d, e, f, g);

@@ -16,10 +16,9 @@ const fullAge = true;
 console.log(fullAge);
 
 // 4. Déclarer une variable job et afficher sa valeur dans la console
-
-
+let job;
 // 5. Affecter la valeur Enseignat à la variable job et l'afficher 
-const job = 'Enseignat' ;
+job = 'Enseignat' ;
 console.log(job);
 
 // 6. Règles de nommage des variables : le nom ne peut pas 
