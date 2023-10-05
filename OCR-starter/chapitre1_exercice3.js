@@ -14,18 +14,18 @@ avec les valeurs 4 et 5 selon qu'elles sont de type nombre ou de type chaîne  :
 - que se passe-t-il si on entoure toute l'expression (VALEUR OPÉRANDE VALEUR) de guillemets ? Pourquoi ?
 */
 
-const somme = 4+5
-console.log(somme)
+const somme = 4+5;
+console.log(somme);
 // Le + fait une simple somme le résultat est donc 9.
 
-const chaine = '4' + '5'
-console.log(chaine)
+const chaine = '4' + '5';
+console.log(chaine);
 // le + assemble les 2 éléments sans les additionner la réponse est 45.
 
-const sommeChaine = '4' + 5
-console.log(sommeChaine)
+const sommeChaine = '4' + 5;
+console.log(sommeChaine);
 // le + agit de la même manière qu'avec les chaînes.
 
-const oper = '4 + 5'
-console.log(oper)
+const oper = '4 + 5';
+console.log(oper);
 // cela écrit juste la formule sans la résoudre.
